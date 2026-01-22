@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/wallet
+    username: wallet      # your DB user
+    password: wallet # the password you just used
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update      # creates tables automatically
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect

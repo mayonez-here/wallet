@@ -1,0 +1,9 @@
+com\example\wallet\controller\HomeController.class
+com\example\wallet\controller\WalletController.class
+com\example\wallet\repository\WalletRepository.class
+com\example\wallet\dto\WalletRequest.class
+com\example\wallet\exception\GlobalExceptionHandler.class
+com\example\wallet\service\WalletService.class
+com\example\wallet\dto\OperationType.class
+com\example\wallet\entity\Wallet.class
+com\example\wallet\WalletApplication.class
